@@ -40,6 +40,8 @@ body{
 main{
     margin-top: var(--header-height);
 }
+.full-width{width: 100%;}
 .flex{display: flex;}
 .space-evenly{justify-content: space-evenly;}
 .space-between{justify-content: space-between;}
+.center{justify-content: center;}
