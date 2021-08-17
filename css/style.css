@@ -1,0 +1,45 @@
+:root{
+    --them-bg: #e9e8e8;
+    --header-height: 45px;
+}
+body{
+    background: var(--them-bg);
+}
+#header{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 6px 14px 0px #0000003d;
+    background: var(--them-bg);
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 45px;
+
+}
+#header-img {
+    display: inline-block;
+    max-height: var(--header-height);
+    overflow-y: hidden;
+}
+#header-img img{
+    display: inline-block;
+    max-height: var(--header-height);
+}
+#nav-bar a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #333;
+    margin: 0px 10px;
+}
+#nav-bar a:hover{
+    color: rgb(31, 30, 30);
+}
+main{
+    margin-top: var(--header-height);
+}
+.flex{display: flex;}
+.space-evenly{justify-content: space-evenly;}
+.space-between{justify-content: space-between;}
